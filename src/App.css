@@ -1,8 +1,17 @@
 .App {
-  padding: 30px;
   display: flex;
+  padding: 300px;
+  justify-content: center;
+}
+.test {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 350px;
+  border: aquamarine solid 5px;
+  border-radius: 10px;
+
 }
 
-.App > div {
-  margin-right: 50px;
-}
+
