@@ -8,7 +8,7 @@ function App() {
     let [highValue, setHighValue] = useState<boolean>(false)
 
     const incrementValue = () => {
-        if (value > 4){
+        if (value >= 5){
             setHighValue(true)
             return
         } else {
@@ -32,11 +32,13 @@ function App() {
                         name='inc'
                         incrementValue={incrementValue}
                         resetValue={resetValue}
+                        value={highValue}
                     />
                     <Button
                         name='reset'
                         incrementValue={incrementValue}
                         resetValue={resetValue}
+                        value={highValue}
                     />
                 </div>
             </div>
