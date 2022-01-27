@@ -3,6 +3,8 @@ import './App.css';
 import {Button} from "./Components/Button/Button";
 import {ResultValue} from "./Components/ResultValue/ResultValue";
 
+
+//init commit
 function App() {
     let [value, setValue] = useState<number>(0)
     let [highValue, setHighValue] = useState<boolean>(false)
