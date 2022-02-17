@@ -1,14 +1,15 @@
 import React from "react";
 import s from './ResultValue.module.css'
 
+
 export type ResultValuePropsType = {
     value: number
-    highValue:boolean
+    maxValue: number
 }
 
 export const ResultValue = (props: ResultValuePropsType) => {
     return (
-        <div className={!props.highValue ? s.resultValue : s.highLimValue}>
+        <div className={props.value >= props.maxValue ? s.maxValue : s.resultValue}>
             {props.value}
         </div>
     )

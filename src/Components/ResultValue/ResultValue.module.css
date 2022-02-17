@@ -1,24 +1,9 @@
 .resultValue {
-    width: 480px;
-    height: 200px;
-    border: aquamarine solid 5px;
-    border-radius: 10px;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    font-family: inherit;
-    font-size: 90px ;
-    color: aquamarine;
+    font-size: xxx-large;
+    color: white;
 }
-.highLimValue {
-    width: 480px;
-    height: 200px;
-    border: aquamarine solid 5px;
-    border-radius: 10px;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    font-family: inherit;
-    font-size: 90px ;
+
+.maxValue {
+    font-size: xxx-large;
     color: red;
 }
