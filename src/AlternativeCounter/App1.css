@@ -1,14 +1,14 @@
 
-.counter {
+.counter1 {
     border: 2px solid white;
     border-radius: 60px;
     width: 300px;
     height: 300px;
-    margin-left: 400px;
-    margin-top: 200px;
+    margin-left: 1000px;
+    margin-top: -305px;
 
 }
-.resultValue {
+.resultValue1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,7 +20,7 @@
     margin-top: 20px;
 }
 
-.buttons {
+.buttons1 {
     border: 2px solid white;
     border-radius: 40px;
     width: 260px;
@@ -32,30 +32,33 @@
     align-items: center;
     justify-content: space-between;
 }
-.inputsMenu {
-   display: flex;
+.inputsMenu1 {
+    display: flex;
     flex-direction: column;
     margin-top: -305px;
     border: 2px solid white;
     border-radius: 60px;
     width: 300px;
     height: 300px;
-    margin-left: 20px;
+    margin-left: 1000px;
     align-items: center;
     justify-content: center;
 }
-.error {
+.error1 {
     font-size: 30px;
     color: red;
 }
-.message {
+.message1 {
     font-size: 30px;
     color: deepskyblue;
 }
-.minMaxValue {
+.minMaxValue1 {
     margin-right: 120px;
     font-size: 17px;
     color: lightskyblue;
 }
 
+.noneStyle1 {
+    display: none;
+}
 

@@ -32,7 +32,7 @@ export const Input = (props: InputPropsType) => {
 
     return <div>
         <input
-            className={s.input}
+            className={s.input1}
             type='number'
             value={props.value}
             onChange={onChangeInputHandler}

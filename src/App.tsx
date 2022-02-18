@@ -3,6 +3,7 @@ import './App.css';
 import {ResultValue} from "./Components/ResultValue/ResultValue";
 import {Button} from "./Components/Button/Button";
 import {Input} from "./Components/Input/Input";
+import AppWithMenu from "./AlternativeCounter/AppWithMenu";
 
 
 function App() {
@@ -99,19 +100,27 @@ function App() {
             />
             </div>
             </div>
-            MinValue
+            <div className='inputsMenu'>
+                <div className='message'>Enter a value: </div>
+                <div className='minMaxValue'>MinValue</div>
+                <div className='input'>
             <Input
                 name='minValue'
                 addValue={setNewMinValue}
                 value={minValue}
             />
-            MaxValue
+                </div>
+                <div className='minMaxValue'>MaxValue</div>
+                <div className='input'>
             <Input
                 name='maxValue'
                 addValue={setNewMaxValue}
                 value={maxValue}
             />
-            <div>{error}</div>
+                </div>
+            <div className='error'>{error}</div>
+            </div>
+            <AppWithMenu/>
         </div>
     );
 }
