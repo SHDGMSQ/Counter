@@ -5,6 +5,7 @@ import {Button} from "./Components/Button/Button";
 import {Input} from "./Components/Input/Input";
 import AppWithMenu from "./AlternativeCounter/AppWithMenu";
 
+//new init commit
 
 function App() {
 
