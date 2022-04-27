@@ -1,5 +1,5 @@
-import React, {useState} from "react";
-import s from './Button.module.css'
+import React from 'react';
+import s from './Button.module.css';
 
 export type ButtonPropsType = {
     name: 'inc' | 'reset'
@@ -13,8 +13,8 @@ export const Button = (props: ButtonPropsType) => {
 
 
     const onClickButtonHandler = () => {
-        props.onClick()
-    }
+        props.onClick();
+    };
 
     return (
         <div>
@@ -26,5 +26,5 @@ export const Button = (props: ButtonPropsType) => {
                 {props.name}
             </button>
         </div>
-    )
-}
+    );
+};
